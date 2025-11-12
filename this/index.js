@@ -11,10 +11,11 @@ const spirit1 = {
 
 const spirit2 = {
     name: "Waving Bellmaker",
-    place: "Isle of Dawn",
+    place: "Daylight Prairie",
     sayHello: function(){console.log(`Hi! I am the ${this.name}`)},
     realm: function(){console.log(`I am from ${this.place}`)}
 }
 
 spirit1.realm();
+
 spirit2.realm();
