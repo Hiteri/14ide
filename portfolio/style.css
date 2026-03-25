@@ -1,0 +1,43 @@
+body{
+    background-color:hsl(253, 85%, 21%);
+    color: hsl(34, 78%, 91%);
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+/* Foto */
+.perfil{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15%;
+    border: 3px solid yellow;
+}
+
+/* Título */
+header h1{
+    margin-top: 40px;
+    font-size: 350%;
+}
+
+/* Link */
+nav a{
+    color:yellow;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 20px;
+}
+
+/* Efeito mudança de cor do link*/ 
+a:hover{
+    color:hsl(60, 100%, 25%);
+}
+
+/* Texto da Descrição (Apresentação) */
+.apresentacao{
+    width: 60%;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
