@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Rolo</title>
+    <style>
+        /* Estilo para  definir a altura de cada 
+        seção e simular que é uma página */
+        .secao{
+            height: 100vh; /* 100% da altura da viewport */
+            padding: 20px;
+            border-bottom: 1px solid #ccc; /* Linha divisória entre as seções */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-family: Helvetica;
+        }
+
+        /* Cores de fundo para diferenciar as seções (opcional) */
+        .cor1 {background-color:hsl(240, 91%, 44%); color:white;}
+        .cor2 {background-color:hsl(0, 3%, 58%);}
+        .cor3 {background-color:hsl(273, 90%, 50%); color:white;}
+        
+        nav{
+            position: fixed; /* Fixa o menu no topo */
+            top: 0;
+            width: 100%;
+            background-color:red;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 100; /* Garante que fique acima */
+        }
+        nav a{
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Calibri;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#secao1">Introdução</a>
+        <a href="#secao2">Por que é importante?</a>
+        <a href="#secao3">Preocupações</a>
+    </nav>
+    
+    <!-- Primeira Página/Seção -->
+     <div id="secao1" class="secao cor1">
+        <h1>Introdução</h1>
+     </div>
+     <!-- Segunda Página/Seção -->
+      <div id="secao2" class="secao cor2">
+        <h1>Por que é importante?</h1>
+      </div>
+      <!-- Teceira Página/Seção -->
+       <div id="secao3" class="secao cor3">
+        <h1>Preocupações</h1>
+       </div>
+</body>
+</html>
