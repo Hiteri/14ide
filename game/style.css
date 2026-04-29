@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Calibri';
+    background: linear-gradient(to bottom, lime, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    background: hsl(120, 100%, 25%);
+    border-radius: 40px;
+}
+
+h1, h2{
+    color: gold;
+}
+
+.numero{
+    font-family: 'Impact Regular';
+    font-size: 60px;
+    color: white;
+    margin: 10px 0;
+}
+
+#resultado{
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    margin: 10px 0;
+    font-weight: bold;
+}
