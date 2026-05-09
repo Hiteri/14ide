@@ -22,13 +22,18 @@ int main(){
     printf("Walks: ");
     scanf("%d", &walks);
 
+    printf("Hits: ");
+    scanf("%d", &hits);
+
     float ERA = (earnedRuns * 9) / inningsPitched;
+    float WHIP = (walks + hits) / inningsPitched;
 
     printf("\n--- Pitching Stats ---\n");
     printf("Name: %s\n", name);
     printf("Strikeouts (K): %d\n", strikeouts);
     printf("Walks (W): %d\n", walks);
     printf("ERA: %.2f\n", ERA);
+    printf("WHIP: %.2f\n", WHIP);
     
 
     return 0;
